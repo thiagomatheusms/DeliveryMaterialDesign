@@ -8,12 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.No">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/colorBackground</item>
+    </style>
+
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="colorControlNormal">@color/colorBackground</item>
         <item name="colorControlActivated">@color/colorBackground</item>
-        <item name="colorControlHighlight">@color/colorBackground</item>
         <item name="android:textColorHint">@color/colorBackground</item>
         <item name="android:textColor">@color/colorBackground</item>
+    </style>
+
+    <style name="TextInputRegister" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/colorSecundaryText</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Gets rid of the search icon -->
+        <item name="searchIcon">@drawable/ic_search_black_24dp</item>
+        <!-- Gets rid of the "underline" in the text -->
+        <item name="queryBackground">@color/colorBackground</item>
+        <!-- Gets rid of the search icon when the SearchView is expanded -->
+        <item name="searchHintIcon">@null</item>
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">teste</item>
     </style>
 
 </resources>

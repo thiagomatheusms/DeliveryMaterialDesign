@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+
+    <string name="bottom_menu_home">Início</string>
+    <string name="bottom_menu_favorites">Favoritos</string>
+    <string name="bottom_menu_profile">Perfil</string>
+
+    <string name="action_bar_menu_search">Pesquisar</string>
+
+    <string name="main_activity_username">Nome de usuário</string>
+    <string name="main_activity_password">Senha</string>
+    <string name="main_activity_login">Login</string>
+    <string name="main_activity_createAccount">Criar Conta</string>
+
+    <string name="home_activity_restaurants">Restaurantes</string>
+    <string name="home_activity_foods">Pratos</string>
+
+    <string name="item_activity_home_name">Nome do Restaurante</string>
+    <string name="item_activity_home_rate">4.5</string>
+    <string name="item_activity_home_restaurant_description">Esta é uma descrição</string>
+
+    <string name="activity_register_name">Nome</string>
+    <string name="activity_register_email">E-mail</string>
+    <string name="activity_register_phone">Telefone</string>
+    <string name="activity_register_password">Senha</string>
+    <string name="activity_register_email_helper">Use um e-mail válido para sua própria segurança.</string>
+    <string name="activity_register_adress">Endereço</string>
+    <string name="activity_register_neighborhood">Bairro</string>
+    <string name="activity_register_create">Confirmar</string>
+    <string name="activity_register_number">Número</string>
+
+
+    <string name="java_register_activity_invalid_name">Nome inválido.</string>
+    <string name="java_register_activity_invalid_phone">Telefone inválido.</string>
+    <string name="java_register_activity_invalid_email">E-mail inválido.</string>
+    <string name="java_register_activity_invalid_adress">Endereço inválido.</string>
+    <string name="java_register_activity_invalid_password">A senha deve conter no mínimo 8 caracteres.</string>
+    <string name="java_register_activity_invalid_neighborhood">Bairro inválido.</string>
+    <string name="java_register_activity_invalid_number">Número inválido.</string>
+
+
+
+
+
+</resources>
